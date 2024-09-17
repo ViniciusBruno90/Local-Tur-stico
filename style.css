@@ -4,10 +4,19 @@
 }
 
 :root {
+  font-family: "Open Sans", sans-serif;
 }
 
 body {
   background: #f5f4f0;
+  display: flex;
+  justify-content: center;
+}
+
+#page {
+  box-sizing: border-box;
+  width: 1120px;
+  margin: 88px 80px 137px;
 }
 
 img {
@@ -24,3 +33,50 @@ ul {
   margin: 36px 0;
   background-color: #d9d9d9;
 }
+
+h1 {
+  font-size: 36px;
+  padding-bottom: 30px;
+}
+
+h3 {
+  color: #e1624f;
+  font-size: 16px;
+  padding-bottom: 8px;
+}
+
+h1,
+h3 {
+  font-weight: bold;
+}
+
+h3 {
+  text-transform: uppercase;
+  font-size: 16px;
+}
+
+#nexttravel p {
+  color: #333333;
+  font-size: 16px;
+  font-style: italic;
+}
+
+#lovehistory p {
+  font-size: 16px;
+  color: #333333;
+}
+
+#description p {
+  color: #333333;
+  font-size: 16px;
+}
+
+#rocktseat {
+  color: #333333;
+  font-size: 16px;
+}
+
+/* ol li {
+  font-size: 28px;
+  font-weight: bold;
+} */
