@@ -3,14 +3,16 @@
   padding: 0;
 }
 
-:root {
+/* :root {
   font-family: "Open Sans", sans-serif;
-}
+} */
 
 body {
   background: #f5f4f0;
   display: flex;
   justify-content: center;
+  align-items: center;
+  font-family: "Open Sans", sans-serif;
 }
 
 #page {
@@ -80,3 +82,26 @@ h3 {
   font-size: 28px;
   font-weight: bold;
 } */
+
+/* #rocktseat {
+  font-family: "Alice", serif;
+  font-size: 16px;
+  padding: 65px 48px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 100%;
+} */
+
+footer {
+  font-family: "Alice", serif;
+  font-size: 16px;
+  padding: 65px 48px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#rocktseat img {
+  padding: 4px;
+}
