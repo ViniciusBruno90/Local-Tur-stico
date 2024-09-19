@@ -7,6 +7,12 @@
   font-family: "Open Sans", sans-serif;
 } */
 
+/* :root {
+  box-sizing: border-box;
+  width: 1120px;
+  margin: 88px 80px 137px;
+} */
+
 body {
   background: #f5f4f0;
   display: flex;
@@ -15,18 +21,40 @@ body {
   font-family: "Open Sans", sans-serif;
 }
 
-#page {
+/* #casca { */
+/* display: flex; */
+/* background: #29292e; */
+/* height: 100%;
+  width: 100%;
+  align-items: center;
+  justify-content: center; */
+/* } */
+/* #page {
   box-sizing: border-box;
   width: 1120px;
   margin: 88px 80px 137px;
+} */
+
+main {
+  background: #f5f4f0;
+  padding: 88px 80px 137px;
+
+  /* margin: 88px 80px 137px;*/
+  width: 1120px;
+}
+
+main > section {
+  max-width: calc(1120px - 160px);
 }
 
 img {
   border-radius: 28px;
+  max-width: calc(1120px - 160px);
 }
 
+ol > li,
 ul {
-  text-align: center;
+  padding-inline-start: 24px;
 }
 
 .divider {
@@ -57,6 +85,12 @@ h3 {
   font-size: 16px;
 }
 
+/* #nexttravel {
+  display: flex;
+  flex-direction: column;
+  margin: 80px 88px 80px 88px;
+} */
+
 #nexttravel p {
   color: #333333;
   font-size: 16px;
@@ -68,7 +102,12 @@ h3 {
   color: #333333;
 }
 
-#description p {
+#locationslist ol li {
+  font-size: 28px;
+  font-weight: bold;
+}
+
+#description {
   color: #333333;
   font-size: 16px;
 }
@@ -104,4 +143,32 @@ footer {
 
 #rocktseat img {
   padding: 4px;
+}
+
+#content {
+  margin-top: 20px;
+  margin-bottom: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+#content #top {
+  display: flex;
+  flex-direction: column;
+}
+
+/* #content #top:first-child {
+  font-size: 28px;
+  font-weight: bold;
+} */
+
+#content #top #title {
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.text-blue {
+  color: #0c51a7;
+  font-weight: bold;
 }
