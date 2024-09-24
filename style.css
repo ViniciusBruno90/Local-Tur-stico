@@ -95,11 +95,14 @@ h3 {
   color: #333333;
   font-size: 16px;
   font-style: italic;
+  text-align: center;
 }
 
 #lovehistory p {
   font-size: 16px;
   color: #333333;
+  text-align: justify;
+  padding-bottom: 64px;
 }
 
 #locationslist ol li {
@@ -110,6 +113,8 @@ h3 {
 #description {
   color: #333333;
   font-size: 16px;
+  width: 100%;
+  text-align: justify;
 }
 
 #rocktseat {
@@ -131,6 +136,10 @@ h3 {
   align-items: center;
   max-width: 100%;
 } */
+
+.end {
+  text-align: center;
+}
 
 footer {
   font-family: "Alice", serif;
@@ -170,5 +179,18 @@ footer {
 
 .text-blue {
   color: #0c51a7;
+  font-weight: bold;
+}
+
+.text-roxo {
+  color: #591b98;
+  font-weight: bold;
+}
+.text-pink {
+  color: #e5245e;
+  font-weight: bold;
+}
+.text-orange {
+  color: #e95e10;
   font-weight: bold;
 }
